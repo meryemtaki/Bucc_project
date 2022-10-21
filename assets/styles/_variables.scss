@@ -1,0 +1,28 @@
+$font-famile:"Cabin",sans-serif;
+@mixin flexCenter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+%button-a {
+// @extend %button-a
+    text-decoration: none;
+    border: 0;
+    background: #ff8799;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 24px;
+    font-family: "Cabin",sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1.5px;
+    padding: 12px 34px;
+    display: inline-block;
+    cursor: pointer;
+    &:hover{
+        color: #ff8799;
+        background-color: #fff;
+    }
+}
